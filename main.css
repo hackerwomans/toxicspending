@@ -28,7 +28,7 @@ p.customfont {
 
 /* Setting body font (subtitle) */
  p {
-  font-family: "EBGaramond-Regular";
+  font-family: "CormorantGaramond-Regular";
   font-weight: 100;
   font-size: 20px;
   line-height: 2;
@@ -41,93 +41,138 @@ p.customfont {
 
 /* h1 text settings (main title) */
 h1 {
-font-family: "EBGaramond-Bold";
+font-family: "CormorantGaramond-Bold";
 position: absolute;
-top: 40%;
-right: 10%;
+top: 10%;
+left: 5%;
 font-weight: 100;
-font-size: 40px;
+font-size: 15px;
 color: white;
+position: fixed;
 
 }
 
 /* h2 text settings (2nd body) */
 h2 {
-font-family: "EBGaramond-Regular";
+font-family: "CormorantGaramond-Regular";
 position: absolute;
 font-weight: 100;
-font-size: 20px;
+font-size: 14px;
 line-height: 2;
-position: absolute;
-top: 150%;
-left: 10%;
-right: 45%;
+position: fixed;
+top: 10%;
+left: 78%;
+right: 5%;
 color: white;
 line-height: 150%;
-text-align: justify;
+text-align: right;
+
 
 }
 
 /* h3 text settings */
 h3 {
-font-family: "EBGaramond-Regular";
+font-family: "CormorantGaramond-Regular";
 position: absolute;
 font-weight: 100;
-font-size: 20px;
+font-size: 14px;
 line-height: 2;
-position: absolute;
-top: 270%;
-right: 50%;
+position: fixed;
+bottom: 24%;
+left: 8%;
 color: white;
 line-height: 150%;
 
 }
 
-/* jan line */
-.line1 {
-  border-left: 1px solid white;
-  height: 490px;
-  position: fixed;
-  top: 50%;
-  left: 30%;
-  transform: translate(-50%, -50%);
+h4 {
+font-family: "CormorantGaramond-Regular";
+position: absolute;
+font-weight: 100;
+font-size: 14px;
+line-height: 2;
+position: fixed;
+bottom: 18.5%;
+left: 8%;
+color: white;
+line-height: 150%;
 
 }
 
-/* feb line */
-.line2 {
-  border-left: 1px solid white;
-  height: 310px;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
+h5 {
+font-family: "CormorantGaramond-Regular";
+position: absolute;
+font-weight: 100;
+font-size: 14px;
+line-height: 2;
+position: fixed;
+bottom: 13%;
+left: 8%;
+color: white;
+line-height: 150%;
 }
 
-  /* mar line */
-  .line3 {
-    border-left: 1px solid white;
-    height: 685px;
-    position: fixed;
-    top: 50%;
-    left: 70%;
-    transform: translate(-50%, -50%);
-
+h6 {
+font-family: "CormorantGaramond-Regular";
+position: absolute;
+font-weight: 100;
+font-size: 14px;
+line-height: 2;
+position: fixed;
+bottom: 7%;
+left: 8%;
+color: white;
+line-height: 150%;
 }
+
 
 
 /* circle legend */
-.circle1{
- color: white;
-  height:490px;
-  border-radius:50%;
-  width: 165px;
-  position: fixed;
-  top: 50%;
-  left: 29%;
-  transform: translate(-50%, -50%);
+.circleBase {
+    border-radius: 50%;
+
 }
+
+.type1 {
+    width: 20px;
+    height: 20px;
+    background: #864388;
+    position: fixed;
+    bottom: 10%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+}
+
+.type2 {
+    width: 20px;
+    height: 20px;
+    background: #abd5c7;
+    position: fixed;
+    bottom: 15%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+}
+
+.type3 {
+    width: 20px;
+    height: 20px;
+    background: #a0d1f0;
+    position: fixed;
+    bottom: 20%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+}
+
+.type4 {
+    width: 20px;
+    height: 20px;
+    background: #ce5a5b;
+    position: fixed;
+    bottom: 25%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+}
+
 
 /* jan circle */
 /* .circle1 {
