@@ -1,0 +1,101 @@
+/* design formatting css */
+
+/* background colour */
+body {
+  background-color: #05081e;
+}
+
+/* Importing the EBGaramond-Regular font */
+@font-face {
+    font-family: "EBGaramond-Regular";
+    font-weight: 100;
+    src: url(EBGaramond-Regular.ttf) format("truetype");
+}
+p.customfont {
+  font-family: "EBGaramond-Regular", merriweather;
+}
+
+/* Importing the EBGaramond-Bold font */
+@font-face {
+    font-family: "EBGaramond-Bold";
+    font-weight: 100;
+    src: url(EBGaramond-Bold.ttf) format("truetype");
+}
+p.customfont {
+  font-family: "EBGaramond-Bold", merriweather;
+}
+
+
+/* Setting body font (subtitle) */
+p {
+  font-family: "EBGaramond-Regular";
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 2;
+  position: absolute;
+  top: 48%;
+  right: 10%;
+  color: white;
+
+}
+
+/* h1 text settings (main title) */
+h1 {
+font-family: "EBGaramond-Bold";
+position: absolute;
+top: 40%;
+right: 10%;
+font-weight: 100;
+font-size: 40px;
+color: white;
+
+}
+
+/* h2 text settings (2nd body) */
+h2 {
+font-family: "EBGaramond-Regular";
+position: absolute;
+font-weight: 100;
+font-size: 20px;
+line-height: 2;
+position: absolute;
+top: 150%;
+left: 10%;
+right: 45%;
+color: white;
+line-height: 150%;
+text-align: justify;
+
+}
+
+/* h3 text settings */
+h3 {
+font-family: "EBGaramond-Regular";
+position: absolute;
+font-weight: 100;
+font-size: 20px;
+line-height: 2;
+position: absolute;
+top: 270%;
+right: 50%;
+color: white;
+line-height: 150%;
+
+}
+
+
+
+
+
+/* jan circle */
+ .circle {
+    border:1px solid white;
+    height:500px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width: 210px;
+    position: absolute;
+    top: 300%;
+    right: 50%;
+    }
