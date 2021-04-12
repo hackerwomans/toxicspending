@@ -5,29 +5,29 @@ body {
   background-color: #05081e;
 }
 
-/* Importing the EBGaramond-Regular font */
+/* Importing the Garamond-Bold font */
 @font-face {
-    font-family: "EBGaramond-Regular";
+    font-family: "CormorantGaramond-Bold";
     font-weight: 100;
-    src: url(EBGaramond-Regular.ttf) format("truetype");
+    src: url(CormorantGaramond-Bold.ttf) format("truetype");
 }
 p.customfont {
-  font-family: "EBGaramond-Regular", merriweather;
+  font-family: "CormorantGaramond-Bold", merriweather;
 }
 
-/* Importing the EBGaramond-Bold font */
+/* Importing the Garamond-Regular font */
 @font-face {
-    font-family: "EBGaramond-Bold";
+    font-family: "CormorantGaramond-Regular";
     font-weight: 100;
-    src: url(EBGaramond-Bold.ttf) format("truetype");
+    src: url(CormorantGaramond-Regular.ttf) format("truetype");
 }
 p.customfont {
-  font-family: "EBGaramond-Bold", merriweather;
+  font-family: "CormorantGaramond-Regular";
 }
 
 
 /* Setting body font (subtitle) */
-p {
+ p {
   font-family: "EBGaramond-Regular";
   font-weight: 100;
   font-size: 20px;
@@ -83,19 +83,105 @@ line-height: 150%;
 
 }
 
+/* jan line */
+.line1 {
+  border-left: 1px solid white;
+  height: 490px;
+  position: fixed;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+
+}
+
+/* feb line */
+.line2 {
+  border-left: 1px solid white;
+  height: 310px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+  /* mar line */
+  .line3 {
+    border-left: 1px solid white;
+    height: 685px;
+    position: fixed;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+
+}
 
 
-
+/* circle legend */
+.circle1{
+ color: white;
+  height:490px;
+  border-radius:50%;
+  width: 165px;
+  position: fixed;
+  top: 50%;
+  left: 29%;
+  transform: translate(-50%, -50%);
+}
 
 /* jan circle */
- .circle {
+/* .circle1 {
     border:1px solid white;
-    height:500px;
+    height:490px;
     border-radius:50%;
-    -moz-border-radius:50%;
-    -webkit-border-radius:50%;
-    width: 210px;
-    position: absolute;
-    top: 300%;
-    right: 50%;
-    }
+    width: 165px;
+    position: fixed;
+    top: 50%;
+    left: 29%;
+    transform: translate(-50%, -50%);
+
+    } */
+
+
+/* feb circle */
+ /* .circle2 {
+    border:1px solid white;
+    height:330px;
+    border-radius:50%;
+    width: 115px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+    } */
+
+    /* mar circle */
+  /* .circle3 {
+        border:1px solid white;
+        height:600px;
+        border-radius:50%;
+        width: 200px;
+        position: fixed;
+        top: 50%;
+        left: 73%;
+        transform: translate(-50%, -50%);
+
+        } */
+
+
+
+
+
+/* .clothes {background-color:#a0d1f0;}
+.clothes:before {border-color:#a0d1f0;}
+
+.games {background-color:#ce5a5b;}
+.games:before {border-color:#ce5a5b}
+
+.monthly {background-color:#abd5c7;}
+.monthly:before {border-color:#abd5c7;}
+
+.other {background-color:#864388;}
+.other:before {border-color:#864388;} */
