@@ -17,7 +17,7 @@ body {
     src: url(CormorantGaramond-Bold.ttf) format("truetype");
 }
 p.customfont {
-  font-family: "CormorantGaramond-Bold", merriweather;
+  font-family: "CormorantGaramond-Bold";
 }
 
 /* Importing the Garamond-Regular font */
@@ -61,6 +61,7 @@ position: fixed;
 line-height: 150%;
 letter-spacing: 1px;
 
+
 }
 
 /* h2 text settings (2nd body) */
@@ -68,10 +69,10 @@ h2 {
 font: "CormorantGaramond-Regular";
 position: absolute;
 font-weight: 100;
-font-size: 14px;
+font-size: 12px;
 line-height: 2;
 position: fixed;
-top: 10%;
+top: 8%;
 left: 78%;
 right: 5%;
 color: white;
@@ -212,7 +213,30 @@ line-height: 150%;
     transform: translate(-50%, -50%);
     }
 
+
+
+#words a {
+  position: fixed;
+  bottom: 10%;
+  right: 5%;
+  font-weight: 100;
+  font-size: 12px;
+  color: white;
+  text-decoration: none;
 }
+
+/* change hover colour */
+#words a:hover {
+  position: fixed;
+  bottom: 10%;
+  right: 5%;
+  font-weight: 100;
+  font-size: 12px;
+  color: #abd5c7;
+  text-decoration: none;
+  cursor: url(https://i.ibb.co/WGkZKD8/Cursor3.png), auto !important;
+}
+
 
 /* jan circle */
 /* .circle1 {
