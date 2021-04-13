@@ -1,4 +1,9 @@
 /* design formatting css */
+html, body {
+     cursor: url(https://i.ibb.co/jDSbdQR/Cursor.png), auto !important;
+
+   }
+
 
 /* background colour */
 body {
@@ -28,33 +33,39 @@ p.customfont {
 
 /* Setting body font (subtitle) */
  p {
-  font-family: "CormorantGaramond-Regular";
+  font: "CormorantGaramond-Regular";
   font-weight: 100;
-  font-size: 20px;
-  line-height: 2;
-  position: absolute;
+  font-size: 15px;
+  line-height: 7;
+  position: fixed;
   top: 48%;
-  right: 10%;
+  left: 8%;
   color: white;
+  transform: translate(-50%, -50%);
+  text-align: right;
 
 }
 
 /* h1 text settings (main title) */
 h1 {
-font-family: "CormorantGaramond-Bold";
+font: "CormorantGaramond-Bold";
 position: absolute;
 top: 10%;
-left: 5%;
+left: 50%;
+transform: translate(-50%, -50%);
 font-weight: 100;
 font-size: 15px;
 color: white;
+text-align: center;
 position: fixed;
+line-height: 150%;
+letter-spacing: 1px;
 
 }
 
 /* h2 text settings (2nd body) */
 h2 {
-font-family: "CormorantGaramond-Regular";
+font: "CormorantGaramond-Regular";
 position: absolute;
 font-weight: 100;
 font-size: 14px;
@@ -72,55 +83,55 @@ text-align: right;
 
 /* h3 text settings */
 h3 {
-font-family: "CormorantGaramond-Regular";
-position: absolute;
-font-weight: 100;
-font-size: 14px;
-line-height: 2;
-position: fixed;
-bottom: 24%;
-left: 8%;
-color: white;
-line-height: 150%;
-
-}
-
-h4 {
-font-family: "CormorantGaramond-Regular";
-position: absolute;
-font-weight: 100;
-font-size: 14px;
-line-height: 2;
-position: fixed;
-bottom: 18.5%;
-left: 8%;
-color: white;
-line-height: 150%;
-
-}
-
-h5 {
-font-family: "CormorantGaramond-Regular";
-position: absolute;
-font-weight: 100;
-font-size: 14px;
-line-height: 2;
-position: fixed;
-bottom: 13%;
-left: 8%;
-color: white;
-line-height: 150%;
-}
-
-h6 {
-font-family: "CormorantGaramond-Regular";
+font: "CormorantGaramond-Regular";
 position: absolute;
 font-weight: 100;
 font-size: 14px;
 line-height: 2;
 position: fixed;
 bottom: 7%;
-left: 8%;
+left: 26%;
+color: white;
+line-height: 150%;
+
+}
+
+h4 {
+font: "CormorantGaramond-Regular";
+position: absolute;
+font-weight: 100;
+font-size: 14px;
+line-height: 2;
+position: fixed;
+bottom: 13%;
+left: 26%;
+color: white;
+line-height: 150%;
+
+}
+
+h5 {
+font: "CormorantGaramond-Regular";
+position: absolute;
+font-weight: 100;
+font-size: 14px;
+line-height: 2;
+position: fixed;
+bottom: 6%;
+left: 46%;
+color: white;
+line-height: 150%;
+}
+
+h6 {
+font: "CormorantGaramond-Regular";
+position: absolute;
+font-weight: 100;
+font-size: 14px;
+line-height: 2;
+position: fixed;
+bottom: 11.5%;
+left: 46%;
 color: white;
 line-height: 150%;
 }
@@ -138,8 +149,8 @@ line-height: 150%;
     height: 20px;
     background: #864388;
     position: fixed;
-    bottom: 10%;
-    left: 5%;
+    bottom: 15%;
+    left: 44%;
     transform: translate(-50%, -50%);
 }
 
@@ -148,8 +159,8 @@ line-height: 150%;
     height: 20px;
     background: #abd5c7;
     position: fixed;
-    bottom: 15%;
-    left: 5%;
+    bottom: 8%;
+    left: 44%;
     transform: translate(-50%, -50%);
 }
 
@@ -158,8 +169,8 @@ line-height: 150%;
     height: 20px;
     background: #a0d1f0;
     position: fixed;
-    bottom: 20%;
-    left: 5%;
+    bottom: 15%;
+    left: 24%;
     transform: translate(-50%, -50%);
 }
 
@@ -168,11 +179,40 @@ line-height: 150%;
     height: 20px;
     background: #ce5a5b;
     position: fixed;
-    bottom: 25%;
-    left: 5%;
+    bottom: 8%;
+    left: 24%;
     transform: translate(-50%, -50%);
 }
 
+.frown {
+  font: "CormorantGaramond-Regular";
+  position: fixed;
+  font-weight: 100;
+  font-size: 14px;
+  line-height: 2;
+  position: fixed;
+  bottom: 8%;
+  left: 69%;
+  color: white;
+  line-height: 150%;
+  transform: translate(-50%, -50%);
+  }
+
+  .smile {
+    font: "CormorantGaramond-Regular";
+    position: fixed;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 2;
+    position: fixed;
+    bottom: 15%;
+    left: 68%;
+    color: white;
+    line-height: 150%;
+    transform: translate(-50%, -50%);
+    }
+
+}
 
 /* jan circle */
 /* .circle1 {

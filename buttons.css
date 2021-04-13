@@ -1,0 +1,665 @@
+
+
+/* 18 steam */
+
+#steam-button_closed {
+    height: 50px;
+    width: 50px;
+    background: #ce5a5b;
+    border: none;
+    border-radius: 25px;
+    color: #05081e;
+    font: normal bold 14px "Garamond", Garamond;
+    text-align:    center;
+    overflow: hidden;
+    position: fixed;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%, -50%)
+}
+
+#steam-button_closed:hover span {
+    display: none;
+    cursor: url(https://i.ibb.co/Bjrw3Wc/Cursorhover.png), auto !important;
+}
+
+#steam-button_closed:hover {
+    width: 180px;
+    transition: width 1s;
+        cursor: url(https://i.ibb.co/Bjrw3Wc/Cursorhover.png), auto !important;
+}
+
+#steam-button_closed::after {
+  content: "";
+  width: 160px;
+  display: none;
+}
+
+#steam-button_closed:hover::after {
+    content: "18. STEAM";
+    display: inline-block;
+}
+
+/* 27 amazon */
+#amazon27-button_closed {
+    height: 50px;
+    width: 50px;
+    background: #a0d1f0;
+    border: none;
+    border-radius: 25px;
+    color: #05081e;
+    font: normal bold 14px "Garamond", Garamond;
+    text-align:    center;
+    overflow: hidden;
+    position: fixed;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%)
+}
+
+#amazon27-button_closed:hover span {
+    display: none;
+    cursor: url(https://i.ibb.co/zxV9rCN/Cursor4.png), auto !important;
+}
+
+#amazon27-button_closed:hover {
+    width: 180px;
+    transition: width 1s;
+        cursor: url(https://i.ibb.co/zxV9rCN/Cursor4.png), auto !important;
+}
+
+#amazon27-button_closed::after {
+  content: "";
+  width: 160px;
+  display: none;
+}
+
+#amazon27-button_closed:hover::after {
+    content: "27. AMAZON";
+    display: inline-block;
+}
+
+/* 04 steam */
+#steam04-button_closed {
+    height: 50px;
+    width: 50px;
+    background: #ce5a5b;
+    border: none;
+    border-radius: 25px;
+    color: #05081e;
+    font: normal bold 14px "Garamond", Garamond;
+    text-align:    center;
+    overflow: hidden;
+    position: fixed;
+    top: 35%;
+    left: 15%;
+    transform: translate(-50%, -50%)
+}
+
+#steam04-button_closed:hover span {
+    display: none;
+    cursor: url(https://i.ibb.co/Bjrw3Wc/Cursorhover.png), auto !important;
+}
+
+#steam04-button_closed:hover {
+    width: 180px;
+    transition: width 1s;
+        cursor: url(https://i.ibb.co/Bjrw3Wc/Cursorhover.png), auto !important;
+}
+
+#steam04-button_closed::after {
+  content: "";
+  width: 160px;
+  display: none;
+}
+
+#steam04-button_closed:hover::after {
+    content: "04. STEAM";
+    display: inline-block;
+}
+
+/* 08 sephora */
+#sephora08-button_closed {
+    height: 50px;
+    width: 50px;
+    background: #a0d1f0;
+    border: none;
+    border-radius: 25px;
+    color: #05081e;
+    font: normal bold 14px "Garamond", Garamond;
+    text-align:    center;
+    overflow: hidden;
+    position: fixed;
+    top: 35%;
+    left: 25%;
+    transform: translate(-50%, -50%)
+}
+
+#sephora08-button_closed:hover span {
+    display: none;
+    cursor: url(https://i.ibb.co/zxV9rCN/Cursor4.png), auto !important;
+}
+
+#sephora08-button_closed:hover {
+    width: 180px;
+    transition: width 1s;
+        cursor: url(https://i.ibb.co/zxV9rCN/Cursor4.png), auto !important;
+}
+
+#sephora08-button_closed::after {
+  content: "";
+  width: 160px;
+  display: none;
+}
+
+#sephora08-button_closed:hover::after {
+    content: "08. SEPHORA";
+    display: inline-block;
+}
+
+/* 12 prime */
+#prime12-button_closed {
+    height: 50px;
+    width: 50px;
+    background: #abd5c7;
+    border: none;
+    border-radius: 25px;
+    color: #05081e;
+    font: normal bold 14px "Garamond", Garamond;
+    text-align:    center;
+    overflow: hidden;
+    position: fixed;
+    top: 35%;
+    left: 35%;
+    transform: translate(-50%, -50%)
+}
+
+#prime12-button_closed:hover span {
+    display: none;
+    cursor: url(https://i.ibb.co/WGkZKD8/Cursor3.png), auto !important;
+}
+
+#prime12-button_closed:hover {
+    width: 180px;
+    transition: width 1s;
+        cursor: url(https://i.ibb.co/WGkZKD8/Cursor3.png), auto !important;
+}
+
+#prime12-button_closed::after {
+  content: "";
+  width: 160px;
+  display: none;
+}
+
+#prime12-button_closed:hover::after {
+    content: "12. AMAZON PRIME";
+    display: inline-block;
+}
+
+/* 02 steam */
+#steam16-button_closed {
+    height: 50px;
+    width: 50px;
+    background: #ce5a5b;
+    border: none;
+    border-radius: 25px;
+    color: #05081e;
+    font: normal bold 14px "Garamond", Garamond;
+    text-align:    center;
+    overflow: hidden;
+    position: fixed;
+    top: 35%;
+    left: 45%;
+    transform: translate(-50%, -50%)
+}
+
+#steam16-button_closed:hover span {
+    display: none;
+    cursor: url(https://i.ibb.co/Bjrw3Wc/Cursorhover.png), auto !important;
+}
+
+#steam16-button_closed:hover {
+    width: 180px;
+    transition: width 1s;
+        cursor: url(https://i.ibb.co/Bjrw3Wc/Cursorhover.png), auto !important;
+}
+
+#steam16-button_closed::after {
+  content: "";
+  width: 160px;
+  display: none;
+}
+
+#steam16-button_closed:hover::after {
+    content: "16. STEAM";
+    display: inline-block;
+}
+
+/* 21 nitro */
+#nitro21-button_closed {
+    height: 50px;
+    width: 50px;
+    background: #abd5c7;
+    border: none;
+    border-radius: 25px;
+    color: #05081e;
+    font: normal bold 14px "Garamond", Garamond;
+    text-align:    center;
+    overflow: hidden;
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%)
+}
+
+#nitro21-button_closed:hover span {
+    display: none;
+    cursor: url(https://i.ibb.co/WGkZKD8/Cursor3.png), auto !important;
+}
+
+#nitro21-button_closed:hover {
+    width: 180px;
+    transition: width 1s;
+        cursor: url(https://i.ibb.co/WGkZKD8/Cursor3.png), auto !important;
+}
+
+#nitro21-button_closed::after {
+  content: "";
+  width: 160px;
+  display: none;
+}
+
+#nitro21-button_closed:hover::after {
+    content: "21. DISCORD NITRO";
+    display: inline-block;
+}
+
+/* 23 nova */
+#nova23-button_closed {
+    height: 50px;
+    width: 50px;
+    background: #a0d1f0;
+    border: none;
+    border-radius: 25px;
+    color: #05081e;
+    font: normal bold 14px "Garamond", Garamond;
+    text-align:    center;
+    overflow: hidden;
+    position: fixed;
+    top: 35%;
+    left: 55%;
+    transform: translate(-50%, -50%)
+}
+
+#nova23-button_closed:hover span {
+    display: none;
+    cursor: url(https://i.ibb.co/zxV9rCN/Cursor4.png), auto !important;
+}
+
+#nova23-button_closed:hover {
+    width: 180px;
+    transition: width 1s;
+        cursor: url(https://i.ibb.co/zxV9rCN/Cursor4.png), auto !important;
+}
+
+#nova23-button_closed::after {
+  content: "";
+  width: 160px;
+  display: none;
+}
+
+#nova23-button_closed:hover::after {
+    content: "23. FASHION NOVA";
+    display: inline-block;
+}
+
+/* 03 dimito */
+#dimito03-button_closed {
+    height: 50px;
+    width: 50px;
+    background: #a0d1f0;
+    border: none;
+    border-radius: 25px;
+    color: #05081e;
+    font: normal bold 14px "Garamond", Garamond;
+    text-align:    center;
+    overflow: hidden;
+    position: fixed;
+    top: 65%;
+    left: 15%;
+    transform: translate(-50%, -50%)
+}
+
+#dimito03-button_closed:hover span {
+    display: none;
+    cursor: url(https://i.ibb.co/zxV9rCN/Cursor4.png), auto !important;
+}
+
+#dimito03-button_closed:hover {
+    width: 180px;
+    transition: width 1s;
+        cursor: url(https://i.ibb.co/zxV9rCN/Cursor4.png), auto !important;
+}
+
+#dimito03-button_closed::after {
+  content: "";
+  width: 160px;
+  display: none;
+}
+
+#dimito03-button_closed:hover::after {
+    content: "03. DIMITO";
+    display: inline-block;
+}
+
+/* 04 dhl */
+#dhl04-button_closed {
+    height: 50px;
+    width: 50px;
+    background: #864388;
+    border: none;
+    border-radius: 25px;
+    color: #05081e;
+    font: normal bold 14px "Garamond", Garamond;
+    text-align:    center;
+    overflow: hidden;
+    position: fixed;
+    top: 65%;
+    left: 15%;
+    transform: translate(-50%, -50%)
+}
+
+#dhl04-button_closed:hover span {
+    display: none;
+    cursor: url(https://i.ibb.co/X5K7VPH/Cursor5.png), auto !important;
+}
+
+#dhl04-button_closed:hover {
+    width: 180px;
+    transition: width 1s;
+        cursor: url(https://i.ibb.co/X5K7VPH/Cursor5.png), auto !important;
+}
+
+#dhl04-button_closed::after {
+  content: "";
+  width: 160px;
+  display: none;
+}
+
+#dhl04-button_closed:hover::after {
+    content: "04. DHL FEES";
+    display: inline-block;
+}
+
+/* 05 paula */
+#paula05-button_closed {
+    height: 50px;
+    width: 50px;
+    background: #a0d1f0;
+    border: none;
+    border-radius: 25px;
+    color: #05081e;
+    font: normal bold 14px "Garamond", Garamond;
+    text-align:    center;
+    overflow: hidden;
+    position: fixed;
+    top: 65%;
+    left: 25%;
+    transform: translate(-50%, -50%)
+}
+
+#paula05-button_closed:hover span {
+    display: none;
+    cursor: url(https://i.ibb.co/zxV9rCN/Cursor4.png), auto !important;
+}
+
+#paula05-button_closed:hover {
+    width: 180px;
+    transition: width 1s;
+        cursor: url(https://i.ibb.co/zxV9rCN/Cursor4.png), auto !important;
+}
+
+#paula05-button_closed::after {
+  content: "";
+  width: 160px;
+  display: none;
+}
+
+#paula05-button_closed:hover::after {
+    content: "05. PAULA'S CHOICE";
+    display: inline-block;
+}
+
+/* 10 smi */
+#smi10-button_closed {
+    height: 50px;
+    width: 50px;
+    background: #a0d1f0;
+    border: none;
+    border-radius: 25px;
+    color: #05081e;
+    font: normal bold 14px "Garamond", Garamond;
+    text-align:    center;
+    overflow: hidden;
+    position: fixed;
+    top: 65%;
+    left: 35%;
+    transform: translate(-50%, -50%)
+}
+
+#smi10-button_closed:hover span {
+    display: none;
+    cursor: url(https://i.ibb.co/zxV9rCN/Cursor4.png), auto !important;
+}
+
+#smi10-button_closed:hover {
+    width: 180px;
+    transition: width 1s;
+        cursor: url(https://i.ibb.co/zxV9rCN/Cursor4.png), auto !important;
+}
+
+#smi10-button_closed::after {
+  content: "";
+  width: 160px;
+  display: none;
+}
+
+#smi10-button_closed:hover::after {
+    content: "10. SMILIFE";
+    display: inline-block;
+}
+
+/* aybl 11 */
+#aybl11-button_closed {
+    height: 50px;
+    width: 50px;
+    background: #a0d1f0;
+    border: none;
+    border-radius: 25px;
+    color: #05081e;
+    font: normal bold 14px "Garamond", Garamond;
+    text-align:    center;
+    overflow: hidden;
+    position: fixed;
+    top: 65%;
+    left: 45%;
+    transform: translate(-50%, -50%)
+}
+
+#aybl11-button_closed:hover span {
+    display: none;
+    cursor: url(https://i.ibb.co/zxV9rCN/Cursor4.png), auto !important;
+}
+
+#aybl11-button_closed:hover {
+    width: 180px;
+    transition: width 1s;
+        cursor: url(https://i.ibb.co/zxV9rCN/Cursor4.png), auto !important;
+}
+
+#aybl11-button_closed::after {
+  content: "";
+  width: 160px;
+  display: none;
+}
+
+#aybl11-button_closed:hover::after {
+    content: "11. AYBL";
+    display: inline-block;
+}
+
+/* prime2 */
+#prime2-button_closed {
+    height: 50px;
+    width: 50px;
+    background: #abd5c7;
+    border: none;
+    border-radius: 25px;
+    color: #05081e;
+    font: normal bold 14px "Garamond", Garamond;
+    text-align:    center;
+    overflow: hidden;
+    position: fixed;
+    top: 65%;
+    left: 55%;
+    transform: translate(-50%, -50%)
+}
+
+#prime2-button_closed:hover span {
+    display: none;
+    cursor: url(https://i.ibb.co/WGkZKD8/Cursor3.png), auto !important;
+}
+
+#prime2-button_closed:hover {
+    width: 180px;
+    transition: width 1s;
+        cursor: url(https://i.ibb.co/WGkZKD8/Cursor3.png), auto !important;
+}
+
+#prime2-button_closed::after {
+  content: "";
+  width: 160px;
+  display: none;
+}
+
+#prime2-button_closed:hover::after {
+    content: "12. AMAZON PRIME";
+    display: inline-block;
+}
+
+/* amazon 16 */
+#amazon16-button_closed {
+    height: 50px;
+    width: 50px;
+    background: #a0d1f0;
+    border: none;
+    border-radius: 25px;
+    color: #05081e;
+    font: normal bold 14px "Garamond", Garamond;
+    text-align:    center;
+    overflow: hidden;
+    position: fixed;
+    top: 65%;
+    left: 65%;
+    transform: translate(-50%, -50%)
+}
+
+#amazon16-button_closed:hover span {
+    display: none;
+    cursor: url(https://i.ibb.co/zxV9rCN/Cursor4.png), auto !important;
+}
+
+#amazon16-button_closed:hover {
+    width: 180px;
+    transition: width 1s;
+        cursor: url(https://i.ibb.co/zxV9rCN/Cursor4.png), auto !important;
+}
+
+#amazon16-button_closed::after {
+  content: "";
+  width: 160px;
+  display: none;
+}
+
+#amazon16-button_closed:hover::after {
+    content: "16. AMAZON";
+    display: inline-block;
+}
+
+/* paula 19 */
+#paula19-button_closed {
+    height: 50px;
+    width: 50px;
+    background: #a0d1f0;
+    border: none;
+    border-radius: 25px;
+    color: #05081e;
+    font: normal bold 14px "Garamond", Garamond;
+    text-align:    center;
+    overflow: hidden;
+    position: fixed;
+    top: 65%;
+    left: 75%;
+    transform: translate(-50%, -50%)
+}
+
+#paula19-button_closed:hover span {
+    display: none;
+    cursor: url(https://i.ibb.co/zxV9rCN/Cursor4.png), auto !important;
+}
+
+#paula19-button_closed:hover {
+    width: 180px;
+    transition: width 1s;
+        cursor: url(https://i.ibb.co/zxV9rCN/Cursor4.png), auto !important;
+}
+
+#paula19-button_closed::after {
+  content: "";
+  width: 160px;
+  display: none;
+}
+
+#paula19-button_closed:hover::after {
+    content: "19. PAULA'S CHOICE";
+    display: inline-block;
+}
+
+/* nitrolast */
+#nitrolast-button_closed {
+    height: 50px;
+    width: 50px;
+    background: #abd5c7;
+    border: none;
+    border-radius: 25px;
+    color: #05081e;
+    font: normal bold 14px "Garamond", Garamond;
+    text-align:    center;
+    overflow: hidden;
+    position: fixed;
+    top: 65%;
+    left: 85%;
+    transform: translate(-50%, -50%)
+}
+
+#nitrolast-button_closed:hover span {
+    display: none;
+    cursor: url(https://i.ibb.co/WGkZKD8/Cursor3.png), auto !important;
+}
+
+#nitrolast-button_closed:hover {
+    width: 180px;
+    transition: width 1s;
+        cursor: url(https://i.ibb.co/WGkZKD8/Cursor3.png), auto !important;
+}
+
+#nitrolast-button_closed::after {
+  content: "";
+  width: 160px;
+  display: none;
+}
+
+#nitrolast-button_closed:hover::after {
+    content: "12. DISCORD NITRO";
+    display: inline-block;
+}
